@@ -55,7 +55,7 @@ const deleteBike = catchAsync(async (req: Request, res: Response) => {
     statusCode: 200,
     success: true,
     message: 'Bike deleted successfully',
-    data: result
+    data: result,
   });
 });
 
