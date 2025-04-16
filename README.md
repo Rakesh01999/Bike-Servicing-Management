@@ -43,7 +43,7 @@ Create a `.env` file in the root directory and add the following:
 
 ```env
 DATABASE_URL="postgresql://username:password@localhost:5432/bike_servicing?schema=public"
-PORT=5000
+PORT=3000
 NODE_ENV=development
 ```
 
