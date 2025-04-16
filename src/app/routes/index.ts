@@ -14,6 +14,7 @@ import express from 'express';
 // import { MetaRoutes } from '../modules/Meta/meta.routes';
 import { CustomerRoutes } from '../modules/customer/customer.route';
 import { BikeRoutes } from '../modules/bike/bike.route';
+import { ServiceRoutes } from '../modules/service/service.route';
 
 const router = express.Router();
 
@@ -26,10 +27,10 @@ const moduleRoutes = [
         path: '/bikes',
         route: BikeRoutes
     },
-    // {
-    //     path: '/services',
-    //     route: serviceRoutes
-    // },
+    {
+        path: '/services',
+        route: ServiceRoutes
+    },
     // {
     //     path: '/specialties',
     //     route: SpecialtiesRoutes

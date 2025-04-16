@@ -1,0 +1,1 @@
+export const serviceStatus = ['pending', 'in-progress', 'done'] as const;
