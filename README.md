@@ -4,7 +4,8 @@ A RESTful API for managing bike servicing operations including customers, bikes,
 
 ## Live Backend Link
 
-[Live Backend URL](https://bike-servicing-api.railway.app)
+[Live Backend URL](https://bike-servicing-ten.vercel.app)
+https://bike-servicing-ten.vercel.app/api
 
 ## Tech Stack
 
